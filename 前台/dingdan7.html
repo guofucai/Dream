@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/dingdan7/style.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.js" ></script>
+	</head>
+
+	<body>
+		<div id="shadow">
+			
+		</div>
+        <div id="shadow2">
+        	<p>确定取消订单？</p>
+        	<div><span>取消</span><span>确定</span></div>
+        </div>
+		<div class="big">
+			<header>
+				<div class="left"><img src="img/xiaoxi/d_03.png"></div>
+				<div class="center"><span class="left">协助订单详情</span></div>
+				<div class="right"><img src="img/dingdan/9878786_03.png"></div>
+			</header>
+			<section>
+				<div class="section_div">
+					<dl>
+						<dt><img src="img/dingdan/y3.png"></dt>
+						<dd>收货人:Jason 15834582589</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dingdan/y2.png"></dt>
+						<dd>北京海淀区远大路</dd>
+					</dl>
+				</div>
+				<div class="section_div1">
+					<dl>
+						<dt>订单编号:</dt>
+						<dd>DBDADA12121</dd>
+					</dl>
+					<dl>
+						<dt>作品名称:</dt>
+						<dd>花瓶</dd>
+					</dl>
+					<dl>
+						<dt>作品类型:</dt>
+						<dd>装饰品</dd>
+					</dl>
+					<dl>
+						<dt>材质:</dt>
+						<dd>铜</dd>
+					</dl>
+					<dl>
+						<dt>作品描述:</dt>
+						<dd>品牌很好撒打撒打撒萨达萨达萨达飒飒萨达撒撒发生</dd>
+					</dl>
+					<dl class="dl1">
+						<dt>作品设计文档:</dt>
+						<dd>
+							<img src="img/dingdan/y1.png">
+							<img src="img/dingdan/y1.png">
+							<img src="img/dingdan/y1.png">
+						</dd>
+					</dl>
+					<dl>
+						<dt></dt>
+						<dd>
+							<p>参考定价<span>￥269.00</span></p>
+							<p>运费<span>￥5.00</span></p>
+							<p>合计<span>￥274.00</span></p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<footer>
+				<dl>
+					<dt>
+        				<h2>订单状态:等待优橙确定</h2>
+        				<p>平均确定时间30分钟内</p>
+        				<p>剩余时间<span>24小时00分</span></p>
+        			</dt>
+					<dd>
+						<span class="qu">取消订单</span>
+						<span class="lian">联系客户</span>
+					</dd>
+				</dl>
+			</footer>
+		</div>
+	</body>
+    <script>
+    	$("footer dl .qu").click(function(){
+    		$("#shadow").show();
+    		$("#shadow2").show();
+    	})
+    	$("#shadow2 span").click(function(){
+    		$("#shadow").hide();
+    		$("#shadow2").hide();
+    	})
+    </script>
+</html>

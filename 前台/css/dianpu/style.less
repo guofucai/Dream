@@ -1,0 +1,155 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.big {
+    .box(vertical);
+    header {
+        line-height: 4.5rem;
+        .whb(100%,4.5rem,#f7f7f7);
+        position: relative;
+        box-sizing: border-box;
+        div {
+            display: inline-block;
+            position: absolute;
+            margin-left: 1.1rem;
+            img {
+                .whb(auto,1.8rem,none);
+            }
+        }
+        h1 {
+            text-align: center;
+            font-size: 1.6rem;
+        }
+    }
+    section {
+        overflow-y: auto;
+        .whb(100%,100%,none);
+        -webkit-box-flex: 1;
+        .section_div {
+            .section_div1 {
+                img {
+                    .whb(100%,auto,none);
+                }
+            }
+            .section_div12 {
+                padding: 0 1.2rem;
+                box-sizing: border-box;
+                p {
+                    margin-bottom: 0.5rem;
+                }
+                h3 {
+                    line-height: 2rem;
+                    font-size: 14px;
+                    img {
+                        .whb(1.2rem,auto,none);
+                        margin-right: 0.8rem;
+                    }
+                }
+            }
+        }
+        .section_div4 {
+            padding: 0 1.2rem;
+            box-sizing: border-box;
+            h3{
+                font-size: 17px;
+                line-height: 3rem;
+                border-bottom: 1px solid #f2f2f2;
+            }
+            dl {
+                padding-top: 0.5rem;
+                box-sizing: border-box;
+                .whb(100%,3rem,none);
+                border-bottom: 1px solid #f2f2f2;
+                .box(horizontal);
+                dt {
+                    .whb(1.6rem,2.5rem,none);
+                    margin-right: 1rem;
+                    img{
+                        .whb(auto,1.6rem,none);
+                    }
+                }
+                dd {
+                    position: relative;
+                    -webkit-box-flex: 1;
+                    img {
+                        position: absolute;
+                        right: 1px;
+                        .whb(auto,1.6rem,none);
+                    }
+                }
+            }
+        }
+        .section_div3 {
+            .whb(100%,3rem,white);
+            border-top: 0.5rem solid #f2f2f2;
+            margin-bottom: 0.5rem;
+            line-height: 3rem;
+            font-size: 17px;
+            padding: 0 1.2rem;
+            box-sizing: border-box;
+            h3 {
+                position: relative;
+            }
+            img {
+                .whb(auto,1.6rem,none);
+                position: absolute;
+                right: 1px;
+                top: 0.1rem;
+                margin-top: 0.5rem;
+            }
+        }
+        .section_div2 {
+            padding: 0 1.2rem;
+            border-top: 0.5rem solid #f2f2f2;
+            box-sizing: border-box;
+            h2 {
+                font-size: 17px;
+                line-height: 3rem;
+                border-bottom: 1px solid #f2f2f2;
+            }
+            .whb(100%,auto,none);
+            .dl1 {
+                border-bottom: none;
+            }
+            dl {
+                .box(horizontal);
+                padding-top: 0.5rem;
+                box-sizing: border-box;
+                .whb(100%,3rem,none);
+                border-bottom: 1px solid #f2f2f2;
+                dt {
+                    .whb(1.6rem,2.5rem,none);
+                    margin-right: 1rem;
+                    img {
+                        .whb(1.6rem,1.8rem,none);
+                    }
+                }
+                dd {
+                    position: relative;
+                    -webkit-box-flex: 1;
+                    img {
+                        .whb(auto,1.6rem,none);
+                        position: absolute;
+                        right: 1px;
+                        top: 0.1rem;
+                    }
+                }
+            }
+        }
+    }
+}

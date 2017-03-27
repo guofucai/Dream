@@ -1,0 +1,83 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 6rem;
+  box-sizing: border-box;
+}
+.big header .center span {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.big header .right {
+  font-size: 17px;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.big section div {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+.big section div dl {
+  padding: 0 1rem;
+  line-height: 5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-bottom: 0.5rem solid #f2f2f2;
+}
+.big section div dl dt img {
+  width: 3.7rem;
+  height: auto;
+  background: none;
+  margin-right: 1rem;
+}
+.big section div dl dd {
+  font-size: 16px;
+}

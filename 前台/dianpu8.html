@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/dianpu8/style.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.js" ></script>
+	</head>
+	<body>
+		<div class="big">
+			<header>
+				<div class="left"><img src="img/xiaoxi/d_03.png"></div>
+				<div class="center">用户性别</div>
+				<div class="right">保存</div>
+			</header>
+			<section>
+				<div>
+				<p>男<span><img src="img/dianpu/123456_03.png"></span></p>
+				<p>女<span><img src="img/dianpu/123456_03.png"></span></p>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script>
+		$("p").click(function(){
+			$(this).children("span").show();
+		})
+	</script>
+</html>

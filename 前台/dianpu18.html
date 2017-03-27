@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/dianpu18/style.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	</head>
+
+	<body>
+		<div id="shadow">
+
+		</div>
+		<div id="shadow2">
+			<span>更换店铺背景图</span>
+			<span>取消</span>
+		</div>
+		<div class="big">
+			<header>
+				<h2>
+                	<a><img src="img/xiaoxi/d_03.png"></a>
+                	<span class="span1">装修店铺</span>
+                	<div><span>保存</span><span>取消</span></div>
+                </h2>
+			</header>
+			<section>
+				<div>
+					<h2>店铺背景图</h2>
+					<img src="img/dianpu/111.png">
+				</div>
+				<div>
+					<h2>轮播图1</h2>
+					<img src="img/dianpu/854545.png">
+				</div>
+				<div>
+					<h2>轮播图2</h2>
+					<img src="img/dianpu/854545.png">
+				</div>
+			</section>
+		</div>
+	</body>
+	<script>
+		$("div").click(function() {
+			$("#shadow").show();
+			$("#shadow2").show();
+		})
+		$("#shadow2").click(function() {
+			$("#shadow").hide();
+			$("#shadow2").hide();
+		})
+	</script>
+
+</html>

@@ -1,0 +1,67 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        position: relative;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        .center {
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 16px;
+        }
+        .right {
+            font-size: 16px;
+        }
+    }
+    section {
+        overflow-y: auto;
+        .whb(100%,100%,#f2f2f2);
+        -webkit-box-flex: 1;
+        div {
+            .whb(100%,auto,white);
+            margin-top: 0.5rem;
+            p {
+                padding: 0 1rem;
+                box-sizing: border-box;
+                line-height: 4rem;
+                border-bottom: 1px solid #f2f2f2;
+                span{
+                    padding-right: 1rem;
+                    box-sizing: border-box;
+                    position: absolute;
+                    right: 1px;
+                    display: none;
+                    img{
+                        .whb(1.5rem,auto,none);
+                    }
+                }
+            }
+        }
+    }
+}

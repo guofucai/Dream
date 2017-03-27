@@ -1,0 +1,69 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        position: relative;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        img {
+           .whb(auto,1.7rem,none);
+        }
+        h1{
+            text-align: center;
+            -webkit-box-flex: 1;
+            font-size: 1.6rem;
+        }
+    }
+    section {
+        .whb(100%,100%,#f3f3f3);
+        -webkit-box-flex: 1;
+        
+        .section_div1{
+            border-bottom: 0.1rem solid #bfbfbf;
+            box-sizing: border-box;
+            .whb(100%,6.1rem,white);
+            dl{
+                .whb(100%,4rem,none);
+                .box(horizontal);
+                padding: 1rem 0rem;
+                
+                
+                img{
+                    .whb(auto,4rem,none);
+                    margin-left:1.2rem ;
+                    margin-right: 1.2rem;
+                }
+                dt{
+                    .whb(auto,4rem,none);
+                }
+                dd{
+                    .whb(100%,4rem,none);
+                    -webkit-box-flex: 1;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}

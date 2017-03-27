@@ -1,0 +1,105 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+#shadow {
+    .whb(100%,100%,black);
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+#shadow2 {
+    .whb(100%,10rem,none);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    margin: auto;
+    display: none;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    span{
+        .whb(100%,4rem,white);
+        display: block;
+        line-height: 4rem;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 0.6rem;
+    }
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        font-size: 17px;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        h2 {
+            line-height: 4.5rem;
+            .box(horizontal);
+            a {
+                display: block;
+                position: absolute;
+                left: 1rem;
+            }
+            .span1 {
+                display: block;
+                position: absolute;
+                margin: auto;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+            div {
+                .box(horizontal);
+                position: absolute;
+                right: 1rem;
+                span {
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+    }
+    section {
+        .whb(100%,100%,#f2f2f2);
+        overflow-y: auto;
+        -webkit-box-flex: 1;
+        img{
+            .whb(100%,auto,none);
+        }
+        div{
+            h2{
+                line-height: 3rem;
+                font-size: 16px;
+                padding: 0 1rem;
+            }
+        }
+    }
+
+}

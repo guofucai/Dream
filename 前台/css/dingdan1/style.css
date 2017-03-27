@@ -1,0 +1,145 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  line-height: 4.5rem;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  position: relative;
+  box-sizing: border-box;
+}
+.big header div {
+  display: inline-block;
+  position: absolute;
+  margin-left: 1.1rem;
+}
+.big header div img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.big header h1 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: none;
+  -webkit-box-flex: 1;
+  padding: 0.7rem 0;
+  overflow-y: auto;
+  position: relative;
+}
+.big section #shadow {
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.big section .nav {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big section .nav .nav1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  font-size: 1.5rem;
+}
+.big section .nav .nav1 div {
+  -webkit-box-flex: 1;
+  margin-left: 1rem;
+  text-align: center;
+}
+.big section .nav .nav2 {
+  position: relative;
+  width: 4.5rem;
+  height: auto;
+  background: none;
+  border-left: 0.1rem solid #aaaaaa;
+}
+.big section .nav .nav2 img {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  width: auto;
+  height: 0.9rem;
+  background: none;
+}
+.big section .section_div {
+  position: relative;
+}
+.big section .section_div h2 {
+  border-bottom: 0.1rem solid #f3f3f3;
+  font-size: 1.6rem;
+}
+.big section .section_div ul li {
+  padding: 0 1.3rem;
+  box-sizing: border-box;
+  border-top: 0.4rem solid #f3f3f3;
+  height: 11.3rem;
+}
+.big section .section_div ul h2 {
+  position: relative;
+}
+.big section .section_div ul h2 span {
+  position: absolute;
+  right: 0;
+  color: #ff801d;
+}
+.big section .section_div ul p {
+  line-height: 2rem;
+}
+.big footer {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big footer ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.big footer ul li:nth-child(3) img {
+  width: auto;
+  height: 4rem;
+  background: none;
+}
+.big footer ul li {
+  width: 100%;
+  height: auto;
+  background: none;
+  margin-top: 0.4rem;
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.big footer ul li img {
+  width: auto;
+  height: 2.6rem;
+  background: none;
+}

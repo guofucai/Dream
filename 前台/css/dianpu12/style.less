@@ -1,0 +1,67 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.big {
+    .box(vertical);
+    header {
+    .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        position: relative;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        .center {
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+    section {
+        .whb(100%,100%,#f2f2f2);
+        overflow-y: auto;
+        -webkit-box-flex: 1;
+        div{
+            .whb(100%,auto,none);
+            .box(vertical);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            p{
+                line-height: 3rem;
+                color: #666666;
+            }
+            textarea{
+                margin-top: 0.1rem;
+                .whb(100%,15rem,white);
+            }
+            span{
+                display: block;
+                .whb(100%,auto,#ff7f1c);
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                line-height: 3rem;
+                border-radius: 10px;
+            }
+        }
+    }
+}

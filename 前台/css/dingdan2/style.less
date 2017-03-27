@@ -1,0 +1,102 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        position: relative;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        .center {
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+    section {
+        .whb(100%,100%,#f2f2f2);
+        -webkit-box-flex: 1;
+        .section_div {
+            padding-top: 1rem;
+            .whb(100%,9.8rem,white);
+            border-bottom: 0.5rem solid #f2f2f2;
+            p {
+                line-height: 1.8rem;
+            }
+        }
+        .section_div1 {
+            padding: 0.9rem 0;
+            border-top:1px solid #f2f2f2;
+            dl {
+                background: white;
+                .box(horizontal);
+                border-bottom: 1px solid #f2f2f2;
+                dt {
+                    img {
+                        .whb(auto,7.5rem,none);
+                        padding: 0.9rem 1.2rem ;
+                    }
+                }
+                dd{
+                    -webkit-box-flex: 1;
+                    h3{
+                        line-height: 1.8rem;
+                        background: white;
+                        margin-bottom: 0.8rem;
+                    }
+                    .dd_div{
+                        .box(horizontal);
+                        .div1{
+                            margin-right: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .section_div2{
+            float: right;
+            padding-right: 1rem;
+            h3{
+                font-size: 1.7rem;
+                margin-bottom: 1.4rem;
+                margin-top: 0.8rem;
+                span{
+                    color: #ff7c18;
+                }
+            }
+            a{
+                    .whb(6rem,2.1rem,none);
+                    border: 0.1rem solid #ff7d1b;
+                    color: #ff7d1b;
+                    display: inline-block;
+                    margin-right: 0.5rem;
+                    float: right;
+                    text-align: center;
+                    line-height: 2.1rem;
+            }
+        }
+    }
+}

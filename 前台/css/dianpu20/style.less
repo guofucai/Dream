@@ -1,0 +1,118 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        font-size: 17px;
+        position: relative;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        a {
+            position: absolute;
+            left: 1rem;
+        }
+        h1 {
+            .whb(100%,4.5rem,none);
+            text-align: center;
+        }
+        div {
+            .box(horizontal);
+            position: absolute;
+            right: 1rem;
+            span {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+    section {
+        .whb(100%,100%,#f3f3f3);
+        overflow-y: auto;
+        -webkit-box-flex: 1;
+        .section_div{
+            img{
+                .whb(100%,auto,none);
+            }
+        }
+        .section_div1{
+            background: #cccccc;
+            height: 5.5rem;
+            ul{
+                .box(horizontal);
+                img{
+                    .whb(auto,2rem,none);
+                    margin-bottom: 0.4rem;
+                }
+                li{
+                    -webkit-box-flex: 1;
+                    text-align: center;
+                    padding: 1.2rem;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        .section_div2{
+            img{
+                .whb(100%,auto,none);
+            }
+        }
+        .section_div3{
+            div{
+                .box(horizontal);
+                dl{
+                    margin-left: 0.7rem;
+                    dd{
+                        .whb(100%,auo,none);
+                        line-height: 2rem;
+                        p{
+                            color: #ff7f1e;
+                        }
+                    }
+                }
+                img{
+                    .whb(14.7rem,auto,none);
+                }
+            }
+        }
+    }
+    footer{
+        .whb(100%,5rem,none);
+        border-top: 1px solid #d9d9d9;
+        font-size: 16px;
+        ul{
+            .box(horizontal);
+            li:nth-child(1){
+                border-left: none;
+            }
+            li{
+                -webkit-box-flex: 1;
+                text-align: center;
+                line-height: 5rem;
+                border-left:1px solid #d9d9d9 ;
+            }
+        }
+    }
+}

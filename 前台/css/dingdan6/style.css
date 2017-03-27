@@ -1,0 +1,89 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  position: relative;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 16px;
+}
+.big header .right {
+  font-size: 17px;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  -webkit-box-flex: 1;
+}
+.big section img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div {
+  font-size: 16px;
+  width: 100%;
+  height: 3.1rem;
+  background: #ffffff;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-top: 0.5rem;
+  line-height: 3rem;
+}
+.big section .section_div input {
+  border: none;
+  outline: none;
+  margin-bottom: 0.2rem;
+}
+.big section .section_div1 {
+  border-top: 0.5rem solid #f2f2f2;
+  background: white;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.big section .section_div1 span {
+  padding-left: 1rem;
+  line-height: 3rem;
+  border: 1px solid #cccccc;
+}
+.big section .section_div1 a {
+  float: right;
+  padding-right: 1rem;
+  margin-top: 0.4rem;
+}
+.big section .section_div1 ul li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 3rem;
+  border: 0.1rem solid #f2f2f2;
+}

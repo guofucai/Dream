@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/dianpu10/style.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.js" ></script>
+	</head>
+
+	<body>
+		<div id="shadow">
+
+		</div>
+		<div id="shadow2">
+			<h2>产品下架产生于客户端,确定下架？</h2>
+			<div><p>确定</p><p>取消</p></div>
+			
+		</div>
+		<div class="big">
+			<header>
+				<div class="left"><img src="img/xiaoxi/d_03.png"></div>
+				<div class="center"><span>星座</span><span>详情</span><span>评价</span></div>
+			</header>
+			<section>
+				<div class="section_div">
+					<img src="img/dianpu/preview_13.png">
+				</div>
+				<div class="section_div1">
+					<h2>3D打印的陶瓷<a><img src="img/dianpu/8527_03.png"></a></h2>
+					<p><span class="span1">限时特价</span><span>￥88</span></p>
+					<p class="p1"><span>邮费:￥6</span><span>月销量:120</span><span>所在地:北京</span></p>
+				</div>
+				<div class="section_div2">
+					<h2>用户评论<a><img src="img/caiwu/9_05.png"></a></h2>
+					<dl>
+						<dt><img src="img/dianpu/951_03.png"></dt>
+						<dd>
+							<p class="p1">小黑仔</p>
+							<p class="p1">2016-08-10</p>
+							<p>Formlabs发布该产品的原因很简单，直接：目前低端3D打印机都无法满足职业设计师的质量标准</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/951_03.png"></dt>
+						<dd>
+							<p class="p1">小黑仔</p>
+							<p class="p1">2016-08-10</p>
+							<p>Formlabs发布该产品的原因很简单，直接：目前低端3D打印机都无法满足职业设计师的质量标准</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="section_div3">
+					<h2>相关推荐</h2>
+					<div>
+						<dl>
+							<dt><img src="img/dianpu/74153_03.png"></dt>
+							<dd>3D打印产品
+								<p>￥88</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/dianpu/74153_05.png"></dt>
+							<dd>3D打印产品
+								<p>￥88</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/dianpu/74153_07.png"></dt>
+							<dd>3D打印产品
+								<p>￥88</p>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/dianpu/74153_09.png"></dt>
+							<dd>3D打印产品
+								<p>￥88</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div>
+					<dl>
+						<dt><img src="img/dianpu/zhuangxiu_07.png"></dt>
+						<dd>下架</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/zhuangxiu_10.png"></dt>
+						<dd>上架</dd>
+					</dl>
+				</div>
+			</footer>
+		</div>
+	</body>
+	<script>
+		$("footer dl").eq(0).click(function() {
+			$("#shadow").show();
+			$("#shadow2").show();
+		})
+		$("#shadow2 p").click(function(){
+			$("#shadow").hide();
+			$("#shadow2").hide();
+		})
+	</script>
+
+</html>

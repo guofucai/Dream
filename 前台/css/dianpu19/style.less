@@ -1,0 +1,109 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        font-size: 17px;
+        position: relative;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        a {
+            position: absolute;
+            left: 1rem;
+        }
+        h1 {
+            .whb(100%,4.5rem,none);
+            text-align: center;
+        }
+        div {
+            .box(horizontal);
+            position: absolute;
+            right: 1rem;
+            span {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+    section {
+        .whb(100%,100%,#f3f3f3);
+        overflow-y: auto;
+        -webkit-box-flex: 1;
+        padding: 0 1rem;
+        box-sizing: border-box;
+        .section_div {
+            margin-top: 0.6rem;
+            background: #e4e4e4;
+            border-radius: 10px;
+            .box(horizontal);
+            line-height: 3rem;
+            padding: 0 1rem;
+            a {
+                .whb(1.7rem,auto,none);
+                img {
+                    .whb(1.7rem,auto,none);
+                    margin-right: 1rem;
+                }
+            }
+            input {
+                .whb(100%,auto,none);
+                display: block;
+                -webkit-box-flex: 1;
+                border: none;
+                outline: none;
+                line-height: 3rem;
+            }
+        }
+        .section_div1{
+            
+            dl{
+                border-bottom: 0.5rem solid #f3f3f3;
+                .box(horizontal);
+                .whb(100%,9.3rem,white);
+                dt{
+                    padding: 0.8rem;
+                    .whb(7.5rem,auto,none);
+                    img{
+                        .whb(7.5rem,auto,none);
+                    }
+                }
+                dd{
+                    padding-top: 0.8rem;
+                    position: relative;
+                    .whb(100%,9.3rem,none);
+                    -webkit-box-flex: 1;
+                    span{
+                        position: absolute;
+                        right: 0px;
+                        bottom: 1.5rem;
+                        font-size: 16px;
+                        color: #ff7e1c;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/dianpu3/style.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	</head>
+
+	<body>
+		<div id="shadow">
+
+		</div>
+		<div id="shadow2">
+			<h2>优橙客服会在5个工作日内联系您！</h2>
+			<p>好的</p>
+		</div>
+		<div class="big">
+			<header>
+				<div class="left"><img src="img/xiaoxi/d_03.png"></div>
+				<div class="center"><span class="left">签约声明</span></div>
+			</header>
+			<section>
+				<div>
+					<p><input type="checkbox">我已仔细阅读签约条例</p>
+					<span>我想签约</span>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script>
+		$("#shadow").hide();
+		$("#shadow2").hide();
+		$("span").click(function() {
+			$("#shadow2").html();
+			if($("input").prop("checked")) {
+				$("#shadow").show();
+				$("#shadow2").html("<h2>优橙客服会在5个工作日内联系您！</h2><p>好的</p>");
+				$("#shadow2").show();
+			} else {
+				$("#shadow").show();
+				$("#shadow2").html("<h2>优橙客服帮助你</h2><p>好的</p>");
+				$("#shadow2").show();
+			}
+			
+		})
+		$("#shadow2").on('click', 'p', function() {
+			$("#shadow").hide();
+			$("#shadow2").hide();
+		})
+	</script>
+
+</html>

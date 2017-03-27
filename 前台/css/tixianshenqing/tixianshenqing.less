@@ -1,0 +1,98 @@
+@import url('../reset.css');
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+html {
+    font-size: 62.5%;
+}
+#wrap,
+body,
+html {
+    .whb(100%,100%,#f2f2f2);
+}
+#wrap {
+    .box(vertical);
+}
+header {
+    .whb(100%,4rem,#f7f7f7);
+    .box(horizontal);
+    position: relative;
+    .left {
+        .whb(1rem,1.5rem,none);
+        position: absolute;
+        top: 1.2rem;
+        left: 1rem;
+    }
+    .right {
+        .whb(1.6rem,1.5rem,none);
+        position: absolute;
+        top: 1.2rem;
+        right: 1rem;
+    }
+    h2 {
+        -webkit-box-flex: 1;
+        line-height: 4rem;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+}
+section {
+    -webkit-box-flex: 1;
+    .nav {
+        .whb(100%,2.8rem,#f2f2f2);
+        line-height: 2.8rem;
+        box-sizing: border-box;
+        padding: 0 1rem;
+        .box(horizontal);
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf;
+        font-size: 1rem;
+        color: #a4a4a4;
+        input {
+            display: block;
+            -webkit-box-flex: 1;
+            border: none;
+            outline: none;
+            background: #f2f2f2;
+        }
+    }
+    .main {
+        .whb(100%,3.3rem,white);
+        line-height: 3.3rem;
+        box-sizing: border-box;
+        padding: 0 1rem;
+        .box(horizontal);
+        border-bottom: 1px solid #dfdfdf;
+        font-size: 1rem;
+        color: #a4a4a4;
+        line-height:;
+        input {
+            display: block;
+            -webkit-box-flex: 1;
+            border: none;
+            outline: none;
+        }
+    }
+    .btn {
+        .whb(100%,2.6rem,none);
+        box-sizing: border-box;
+        padding: 0 1rem;
+        margin-top: 1.6rem;
+        span {
+            display: block;
+            .whb(100%,100%,#ff7f1c);
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            color: white;
+            border-radius: 0.3rem;
+            text-align: center;
+        }
+    }
+}

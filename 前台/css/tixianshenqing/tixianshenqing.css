@@ -1,0 +1,109 @@
+@import url('../reset.css');
+html {
+  font-size: 62.5%;
+}
+#wrap,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+header .left {
+  width: 1rem;
+  height: 1.5rem;
+  background: none;
+  position: absolute;
+  top: 1.2rem;
+  left: 1rem;
+}
+header .right {
+  width: 1.6rem;
+  height: 1.5rem;
+  background: none;
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+}
+header h2 {
+  -webkit-box-flex: 1;
+  line-height: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+section {
+  -webkit-box-flex: 1;
+}
+section .nav {
+  width: 100%;
+  height: 2.8rem;
+  background: #f2f2f2;
+  line-height: 2.8rem;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 1rem;
+  color: #a4a4a4;
+}
+section .nav input {
+  display: block;
+  -webkit-box-flex: 1;
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+}
+section .main {
+  width: 100%;
+  height: 3.3rem;
+  background: #ffffff;
+  line-height: 3.3rem;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 1rem;
+  color: #a4a4a4;
+  line-height: ;
+}
+section .main input {
+  display: block;
+  -webkit-box-flex: 1;
+  border: none;
+  outline: none;
+}
+section .btn {
+  width: 100%;
+  height: 2.6rem;
+  background: none;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin-top: 1.6rem;
+}
+section .btn span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ff7f1c;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: white;
+  border-radius: 0.3rem;
+  text-align: center;
+}

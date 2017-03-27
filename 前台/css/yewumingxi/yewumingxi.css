@@ -1,0 +1,105 @@
+@import url('../reset.css');
+html {
+  font-size: 62.5%;
+}
+#wrap,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #dfdfdf;
+}
+header .left,
+header .right {
+  width: 3.2rem;
+  height: 100%;
+  background: none;
+  line-height: 5rem;
+  text-align: center;
+}
+header .left img {
+  width: 1rem;
+  height: 1.5rem;
+  background: none;
+}
+header .right img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+header h2 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+section {
+  -webkit-box-flex: 1;
+}
+section .nav {
+  width: 100%;
+  height: 2.6rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #f9f9f9;
+}
+section .nav .left {
+  width: 8.8rem;
+  height: 2.6rem;
+  background: none;
+  line-height: 2.6rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+section .nav .right {
+  -webkit-box-flex: 1;
+  line-height: 2.6rem;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 1rem;
+}
+section .content {
+  width: 100%;
+  height: 15.8rem;
+  background: #ffffff;
+}
+section .content .nav {
+  width: 100%;
+  height: 2.6rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #f9f9f9;
+}
+section .content .nav .left {
+  width: 8.8rem;
+  height: 2.6rem;
+  background: none;
+  line-height: 2.6rem;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  color: #bababa;
+}
+section .content .nav .right {
+  -webkit-box-flex: 1;
+  line-height: 2.6rem;
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 1rem;
+  color: #bababa;
+}

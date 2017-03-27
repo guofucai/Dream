@@ -1,0 +1,104 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+#shadow {
+    .whb(100%,100%,black);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#shadow2 {
+    .whb(70%,11.5rem,white);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    left: 15%;
+    display: none;
+    p {
+        .whb(100%,100%,white);
+        -webkit-box-flex: 1;
+        text-align: center;
+        display: block;
+        box-sizing: border-box;
+        padding-top: 25%;
+        font-size: 18px;
+    }
+    div {
+        .whb(100%,4rem,white);
+        .box(horizontal);
+        span {
+            display: block;
+            border: 1px solid #d7d7d7;
+            text-align: center;
+            line-height: 4rem;
+            -webkit-box-flex: 1;
+        }
+    }
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        .left{
+            
+        }
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        .center {
+            -webkit-box-flex: 1;
+            font-size: 16px;
+            text-align: center;
+            
+        }
+        
+    }
+    section {
+        .whb(100%,100%,#f2f2f2);
+        overflow-y: auto;
+        -webkit-box-flex: 1;
+        div{
+            ul{
+                border-bottom: 0.5rem solid #f2f2f2;
+                .whb(100%,auto,white);
+                li{
+                    padding: 0 1rem;
+                    line-height: 3.8rem;
+                    box-sizing: border-box;
+                    position: relative;
+                    border-bottom: 1px solid #f2f2f2;
+                    a{
+                        position: absolute;
+                        right: 1rem;
+                        img{
+                            .whb(auto,1.2rem,none);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

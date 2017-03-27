@@ -1,0 +1,152 @@
+@import url("../reset.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big #shadow {
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+}
+.big #shadow2 {
+  width: 20rem;
+  height: 11.5rem;
+  background: #ffffff;
+  position: absolute;
+  left: 3rem;
+  top: 10rem;
+  z-index: 110;
+  display: none;
+  text-align: center;
+}
+.big #shadow2 h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.big #shadow2 div {
+  width: 100%;
+  height: 7rem;
+  background: #ffffff;
+  -webkit-box-flex: 1;
+}
+.big #shadow2 ul {
+  width: 100%;
+  height: 4.1rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big #shadow2 ul li {
+  -webkit-box-flex: 1;
+  line-height: 4.1rem;
+  border: 0.1rem solid #efefef;
+  color: #2289ff;
+  font-size: 1.6rem;
+}
+.big #shadow3 {
+  width: 100%;
+  height: 21.6rem;
+  background: #ffffff;
+  position: absolute;
+  display: none;
+  z-index: 110;
+  bottom: 0rem;
+  color: #0267ff;
+}
+.big #shadow3 .left {
+  float: left;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.big #shadow3 .right {
+  float: right;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  position: relative;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header h1 {
+  text-align: center;
+  -webkit-box-flex: 1;
+  font-size: 1.6rem;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  -webkit-box-flex: 1;
+}
+.big section .section_div {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 1.2rem;
+  -webkit-box-flex: 1;
+  box-sizing: border-box;
+}
+.big section ul {
+  background: #f7f7f7;
+}
+.big section ul li {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: auto;
+  background: none;
+  line-height: 3.2rem;
+  border-bottom: 1rem solid #f2f2f2;
+}
+.big section ul li a {
+  position: absolute;
+  right: 2rem;
+}
+.big section ul li a img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}
+.big section ul li span {
+  margin-right: 0.8rem;
+}
+.big section ul li input {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  display: block;
+  border: none;
+  outline: none;
+  line-height: 3.2rem;
+}

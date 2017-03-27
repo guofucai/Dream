@@ -1,0 +1,99 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+#shadow {
+    position: absolute;
+    .whb(100%,100%,black);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-sizing: border-box;
+}
+#shadow2 {
+    position: absolute;
+    .whb(auto,22rem,none);
+    -webkit-box-flex: 1;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 20px;
+    margin: 0 auto;
+    right: 20px;
+    z-index: 110;
+    box-sizing: border-box;
+    div {
+        .whb(100%,15rem,white);
+        padding-top: 2rem;
+        box-sizing: border-box;
+        &:nth-child(1) {
+            padding-left: 1.4rem;
+        }
+        dl {
+            float: left;
+            .whb(auto,6.2rem,none);
+            padding: 0 0.6rem;
+            box-sizing: border-box;
+            img {
+                .whb(3.6rem,3.2rem,none);
+            }
+        }
+    }
+    p {
+        .whb(100%,5.3rem,white);
+        font-size: 17px;
+        text-align: center;
+        line-height: 5.3rem;
+    }
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        position: relative;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        .center {
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+    section {
+        overflow-y: auto;
+        .whb(100%,100%,none);
+        -webkit-box-flex: 1;
+            position: relative;
+            img {
+                position: absolute;
+                .whb(auto,13.1rem,none);
+                margin: auto;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+            }
+
+    }
+}

@@ -1,0 +1,160 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+  font-size: 17px;
+  position: relative;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header a {
+  position: absolute;
+  left: 1rem;
+}
+.big header h1 {
+  width: 100%;
+  height: 4.5rem;
+  background: none;
+  text-align: center;
+}
+.big header div {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: absolute;
+  right: 1rem;
+}
+.big header div span {
+  margin-left: 0.5rem;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.big section .section_div {
+  border-top: 1rem solid #f2f2f2;
+  background: white;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.big section .section_div dl {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border-bottom: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 4rem;
+}
+.big section .section_div dl dt {
+  margin-right: 1rem;
+}
+.big section .section_div dl dt img {
+  width: 2.3rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div dl dd {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.big section .section_div dl dd img {
+  width: auto;
+  height: 1.5rem;
+  background: none;
+  position: absolute;
+  right: 1rem;
+  margin-top: 1.4rem;
+}
+.big section .section_div2 {
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-top: 1rem solid #f2f2f2;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.big section .section_div2 dl {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  border-bottom: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 4rem;
+}
+.big section .section_div2 dl dt {
+  margin-right: 1rem;
+}
+.big section .section_div2 dl dt img {
+  width: 2.3rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div2 dl dd {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.big section .section_div2 dl dd img {
+  width: auto;
+  height: 1.5rem;
+  background: none;
+  position: absolute;
+  right: 1rem;
+  margin-top: 1.4rem;
+}
+.big footer {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.big footer dl img {
+  width: auto;
+  height: 2.6rem;
+  background: none;
+}
+.big footer dl dd img {
+  width: auto;
+  height: 4rem;
+  background: none;
+}

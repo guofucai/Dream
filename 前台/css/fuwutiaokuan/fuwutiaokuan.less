@@ -1,0 +1,57 @@
+@import url('../reset.css');
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient:@ver;
+}
+html{
+    font-size: 62.5%;
+}
+html,body,#wrap{
+    .whb(100%,100%,#f2f2f2);
+}
+#wrap{
+    .box(vertical);
+}
+header{
+    .whb(100%,4rem,#f2f2f2);
+    position: relative; 
+    line-height: 4rem;
+    border-bottom: 2px solid #e1e1e1;
+    img{
+        .whb(1rem,1.5rem,none);
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+    span{
+       display: block;
+       .whb(100%,100%,none);
+       text-align: center;
+       font-weight: bold;
+       font-size: 1.5rem; 
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    h2{
+        .whb(100%,3.5rem,white);
+        line-height: 3.5rem;
+        position: relative;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        img{
+            .whb(0.8rem,1.4rem,none);
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+        }
+    }
+    .bto{
+        margin-bottom: 1rem;
+    }
+}

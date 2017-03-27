@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/dianpu2/style.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	</head>
+
+	<body>
+
+		<div class="big">
+			<div id="shadow">
+
+			</div>
+			<div id="shadow2">
+				<div>
+					<dl>
+						<dt><img src="img/dianpu/aa_03.png"></dt>
+						<dd>微信好友</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/aa_05.png"></dt>
+						<dd>微信好友</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/aa_07.png"></dt>
+						<dd>微信好友</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/aa_09.png"></dt>
+						<dd>微信好友</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/aa_15.png"></dt>
+						<dd>微信好友</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/aa_16.png"></dt>
+						<dd>微信好友</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/dianpu/aa_17.png"></dt>
+						<dd>微信好友</dd>
+					</dl>
+				</div>
+				<p>取消</p>
+			</div>
+			<header>
+				<div class="left"><img src="img/xiaoxi/d_03.png"></div>
+				<div class="center"><span class="left">二维码</span></div>
+				<div class="right"><img src="img/dianpu/a1_05.png"></div>
+			</header>
+			<section>
+				
+					<img src="img/dianpu/erweima.png">
+			
+			</section>
+		</div>
+	</body>
+	<script>
+		$("#shadow").hide();
+		$("#shadow2").hide();
+		$("header .right img").click(function() {
+			$("#shadow").show();
+			$("#shadow2").show();
+		})
+		$("#shadow2 p").click(function(){
+		$("#shadow").hide();
+		$("#shadow2").hide();
+		})
+	</script>
+
+</html>

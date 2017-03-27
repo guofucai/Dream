@@ -1,0 +1,225 @@
+@import url("style.css");
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap header {
+  line-height: 4.5rem;
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  position: relative;
+  box-sizing: border-box;
+}
+.wrap header div {
+  display: inline-block;
+  position: absolute;
+  margin-left: 1.1rem;
+}
+.wrap header div img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.wrap header h2 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.wrap section {
+  width: 100%;
+  height: 100%;
+  background: none;
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.wrap section .section_div1 {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrap section .section_div1 dl {
+  padding: 1rem 1.6rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border: 0.1rem solid #bfbfbf;
+}
+.wrap section .section_div1 dl dt {
+  width: 4rem;
+  height: auto;
+  background: none;
+  margin-right: 1.6rem;
+}
+.wrap section .section_div1 dl dt img {
+  width: auto;
+  height: 5rem;
+  background: none;
+}
+.wrap section .section_div1 dl dd {
+  position: relative;
+  width: 100%;
+  height: 5rem;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.wrap section .section_div1 dl dd div {
+  margin-top: 0.3rem;
+  padding-left: 0.6rem;
+  border-left: 0.1rem solid #cccccc;
+  line-height: 2.6rem;
+}
+.wrap section .section_div1 dl dd img {
+  width: auto;
+  height: 2.2rem;
+  background: none;
+  position: absolute;
+  right: 0.1rem;
+  top: 1.8rem;
+}
+.wrap section .section_div1 dl dd h2 {
+  font-size: 1.6rem;
+}
+.wrap section .section_div1 dl dd h2 span {
+  margin-left: 0.4rem;
+  width: 5rem;
+  height: 1.4rem;
+  background: #ff4907;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.3rem;
+  display: inline-block;
+  line-height: 1.4rem;
+  text-align: center;
+}
+.wrap section .section_div1 dl dd p span {
+  color: #ff4907;
+}
+.wrap section .section_div2 {
+  border-bottom: 0.1rem solid #f2f2f2;
+}
+.wrap section .section_div2 h2 {
+  line-height: 3.6rem;
+  text-align: center;
+  font-size: 16px;
+}
+.wrap section .section_div2 .section_div21 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap section .section_div2 .section_div21 img {
+  width: auto;
+  height: 2rem;
+  background: none;
+}
+.wrap section .section_div2 .section_div21 dl {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 7.8rem;
+  background: none;
+  border: 0.1rem solid #f2f2f2;
+}
+.wrap section .section_div2 .section_div21 dl dt {
+  padding-left: 1.2rem;
+  margin-right: 1.3rem;
+  line-height: 7.8rem;
+}
+.wrap section .section_div2 .section_div21 dl dd {
+  padding-top: 1.5rem;
+  line-height: 2.8rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: none;
+  -webkit-box-flex: 1;
+  box-sizing: border-box;
+}
+.wrap section .section_div2 .section_div21 dl dd .ding {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+}
+.wrap section .section_div2 .section_div21 dl dd h4 {
+  line-height: 4.6rem;
+}
+.wrap section .section_div2 .section_div21 dl p {
+  color: #c6c6c6;
+}
+.wrap section .section_div3 img {
+  width: 4.1rem;
+  height: auto;
+  background: none;
+  margin-top: 1rem;
+}
+.wrap section .section_div3 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 6rem;
+  background: none;
+  border-bottom: 0.1rem solid #f2f2f2;
+}
+.wrap section .section_div3 dl dd {
+  line-height: 1.4rem;
+  padding-top: 1.1rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.wrap section .section_div3 dl dd p {
+  color: #b7b7b7;
+}
+.wrap section .section_div3 dl dd span {
+  position: absolute;
+  color: #b7b7b7;
+  right: 1.2rem;
+  top: 2.2rem;
+}
+.wrap section .section_div3 dl dt {
+  margin-right: 1.5rem;
+  margin-left: 1.1rem;
+}
+.wrap footer {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap footer ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrap footer ul li:nth-child(3) img {
+  width: auto;
+  height: 4rem;
+  background: none;
+}
+.wrap footer ul li {
+  width: 100%;
+  height: auto;
+  background: none;
+  margin-top: 0.4rem;
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.wrap footer ul li img {
+  width: auto;
+  height: 2.6rem;
+  background: none;
+}

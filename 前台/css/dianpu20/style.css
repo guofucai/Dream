@@ -1,0 +1,131 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+  font-size: 17px;
+  position: relative;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header a {
+  position: absolute;
+  left: 1rem;
+}
+.big header h1 {
+  width: 100%;
+  height: 4.5rem;
+  background: none;
+  text-align: center;
+}
+.big header div {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: absolute;
+  right: 1rem;
+}
+.big header div span {
+  margin-left: 0.5rem;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.big section .section_div img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.big section .section_div1 {
+  background: #cccccc;
+  height: 5.5rem;
+}
+.big section .section_div1 ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big section .section_div1 ul img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  margin-bottom: 0.4rem;
+}
+.big section .section_div1 ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding: 1.2rem;
+  box-sizing: border-box;
+}
+.big section .section_div2 img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.big section .section_div3 div {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big section .section_div3 div dl {
+  margin-left: 0.7rem;
+}
+.big section .section_div3 div dl dd {
+  width: 100%;
+  height: auo;
+  background: none;
+  line-height: 2rem;
+}
+.big section .section_div3 div dl dd p {
+  color: #ff7f1e;
+}
+.big section .section_div3 div img {
+  width: 14.7rem;
+  height: auto;
+  background: none;
+}
+.big footer {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  border-top: 1px solid #d9d9d9;
+  font-size: 16px;
+}
+.big footer ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big footer ul li:nth-child(1) {
+  border-left: none;
+}
+.big footer ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 5rem;
+  border-left: 1px solid #d9d9d9 ;
+}

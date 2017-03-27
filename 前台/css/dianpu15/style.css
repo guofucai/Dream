@@ -1,0 +1,134 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+#shadow {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: none;
+}
+#shadow2 {
+  width: 24rem;
+  height: 11.5rem;
+  background: #ffffff;
+  z-index: 110;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+}
+#shadow2 h2 {
+  line-height: 7.5rem;
+  text-align: center;
+  font-size: 17px;
+}
+#shadow2 div {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#shadow2 p {
+  -webkit-box-flex: 1;
+  border: 1px solid #e1e1e3;
+  display: block;
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 17px;
+  color: #1583fe;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 6rem;
+  box-sizing: border-box;
+}
+.big header .center span {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  display: block;
+  color: #232323;
+}
+.big header .right {
+  font-size: 17px;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.big section .section_div input {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  line-height: 4rem;
+  display: block;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  border: none;
+  outline: none;
+}
+.big .section_div1 {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.big span {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 3.8rem;
+  background: #cccccc;
+  display: block;
+  text-align: center;
+  line-height: 3.8rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+}

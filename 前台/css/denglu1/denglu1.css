@@ -1,0 +1,98 @@
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+  background: url(../../img2/tuceng/37d38345-062f-423c-80ca-c40251430c2fOri.png) no-repeat;
+  background-size: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 18rem;
+  background: none;
+  margin-bottom: 4rem;
+}
+header dl {
+  padding-top: 5.8rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5e5e5e;
+}
+header dl img {
+  width: 8.8rem;
+  height: 9rem;
+  background: #f8f4f5;
+}
+section {
+  -webkit-box-flex: 1;
+}
+section p {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+section p img {
+  width: 3rem;
+  height: 3rem;
+  background: none;
+  margin-right: 1rem;
+}
+section p input {
+  display: block;
+  width: 100%;
+  height: 2.6rem;
+  background: none;
+  -webkit-box-flex: 1;
+  border: none;
+  border-bottom: 1px solid red;
+  outline: none;
+}
+section p .tu {
+  width: auto;
+  height: 1.4rem;
+  background: none;
+  position: absolute;
+  top: 0.5rem;
+  right: 1em;
+}
+section .btn {
+  width: 100%;
+  height: 3.4rem;
+  background: none;
+  box-sizing: border-box;
+  padding: 0 1.4rem;
+}
+section .btn span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #ff7d1b;
+  text-align: center;
+  line-height: 3.4rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: white;
+}
+section .left {
+  float: left;
+  margin: 1.2rem 0 0 1.4rem;
+}
+section .right {
+  float: right;
+  margin: 1.2rem 1.4rem 0 0;
+}

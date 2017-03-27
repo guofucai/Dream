@@ -1,0 +1,195 @@
+@import url("style.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@fx) {
+    display: -webkit-box;
+    -webkit-box-orient: @fx;
+}
+html,
+body,
+.big {
+    .whb(100%,100%,none);
+}
+html {
+    font-size: 62.5%;
+}
+#shadow {
+    .whb(100%,100%,black);
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+#shadow2{
+    .whb(24rem,11.5rem,white);
+    z-index: 110;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    h2{
+        line-height: 7.5rem;
+        text-align: center;
+        font-size: 17px;
+    }
+    div{
+        .box(horizontal);
+    }
+    p{
+        -webkit-box-flex: 1;
+        border: 1px solid #e1e1e3;
+        display: block;
+        .whb(100%,4rem,none);
+  
+        line-height: 4rem;
+        text-align: center;
+        font-size: 17px;
+        color: #1583fe;
+    }
+}
+.big {
+    .box(vertical);
+    header {
+        .whb(100%,4.5rem,#f7f7f7);
+        text-align: center;
+        line-height: 4.5rem;
+        .box(horizontal);
+        border-bottom: 0.1rem solid #bfbfbf;
+        padding: 0 1.1rem;
+        box-sizing: border-box;
+        img {
+            .whb(auto,1.7rem,none);
+        }
+        .center {
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 16px;
+            .box(horizontal);
+            padding: 0 7rem;
+            box-sizing: border-box;
+            span {
+                .whb(100%,auto,none);
+                -webkit-box-flex: 1;
+                display: block;
+            }
+        }
+        .right {
+            font-size: 17px;
+        }
+    }
+    section {
+        .whb(100%,100%,white);
+        overflow-y: auto;
+        -webkit-box-flex: 1;
+        h2 {
+            font-size: 16px;
+            line-height: 3rem;
+            position: relative;
+            img {
+                .whb(auto,1.6rem,none);
+                position: absolute;
+                right: 0;
+                top: 0.8rem;
+            }
+        }
+        .section_div {
+            img {
+                .whb(100%,auto,none);
+            }
+
+        }
+        .section_div1 {
+            padding: 0 1rem;
+            box-sizing: border-box;
+            img {
+                .whb(10rem,auto,none);
+            }
+            .span1{
+                display: inline-block;
+                border-radius: 10px;
+                .whb(6.1rem,2.1rem,#ff7f1c);
+                text-align: center;
+                line-height: 2rem;
+                margin-right: 1rem;
+            }
+            .p1{
+                line-height: 3.6rem;
+            }
+        }
+        .section_div2 {
+            padding: 0 1rem;
+            box-sizing: border-box;
+            dl {
+                .box(horizontal);
+                margin-bottom: 0.6rem;
+                dt{
+                    .whb(2.4rem,auto,none);
+                    img{
+                       .whb(2.4rem,auto,none); 
+                    }
+                }
+                dd{
+                    -webkit-box-flex: 1;
+                   margin-left: 1.8rem;
+                   .p1{
+                       color: #9f9f9f;
+                   }
+                }
+            }
+        }
+        .section_div3 {
+            padding: 0 1rem;
+            box-sizing: border-box;
+            h2 {
+                line-height: 3.5rem;
+            }
+            div {
+                .box(horizontal);
+                overflow: hidden;
+                img {
+                    .whb(7.8rem,auto,none);
+                }
+                p {
+                    color: #f67e1d;
+                }
+                dl {
+                    margin-right: 1.5rem;
+                    dd {
+                        line-height: 1.8rem;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        .whb(100%,5rem,none);
+        div {
+            .box(horizontal);
+            height: 4.9rem;
+             border-top: 1px solid #bebebe;
+            dl {
+                .box(horizontal);
+                font-size: 16px;
+                -webkit-box-flex: 1;
+                line-height: 5rem;
+                border: 1px solid #bebebe;
+                border-bottom: none;
+                padding: 0 4rem;
+                box-sizing: border-box;
+                img {
+                    .whb(auto,1.8rem,none);
+                    margin-right: 1.2rem;
+                }
+            }
+        }
+    }
+}

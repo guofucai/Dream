@@ -1,0 +1,174 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+#shadow {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#shadow2 {
+  width: 70%;
+  height: 11.5rem;
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  left: 15%;
+  display: none;
+}
+#shadow2 p {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  -webkit-box-flex: 1;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 25%;
+  font-size: 18px;
+}
+#shadow2 div {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#shadow2 div span {
+  display: block;
+  border: 1px solid #d7d7d7;
+  text-align: center;
+  line-height: 4rem;
+  -webkit-box-flex: 1;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 16px;
+}
+.big header .right {
+  font-size: 17px;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.big section .section_div {
+  width: 100%;
+  height: 5.2rem;
+  background: #ffffff;
+  border-bottom: 0.5rem solid #f2f2f2;
+}
+.big section .section_div img {
+  width: 1.2rem;
+  height: auto;
+  background: none;
+  margin-right: 1rem;
+}
+.big section .section_div dl {
+  line-height: 2.4rem;
+  padding: 0 1.6rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big section .section_div1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.big section .section_div1 .dl1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big section .section_div1 dl {
+  line-height: 2rem;
+  border-bottom: 1px solid #e6e6e6;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big section .section_div1 dl img {
+  width: 8rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div1 dl dd {
+  -webkit-box-flex: 1;
+}
+.big footer {
+  width: 100%;
+  height: 5rem;
+  background: none;
+}
+.big footer dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big footer dl dt {
+  width: 50%;
+  height: auto;
+  background: none;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.big footer dl dt span {
+  color: #ff7d1b;
+}
+.big footer dl dd {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.big footer dl dd span {
+  margin: 0 1rem;
+  width: 100%;
+  height: 3rem;
+  background: none;
+  border: 1px solid #ff7d1b;
+  display: block;
+  margin-top: 1rem;
+  border-radius: 10px;
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: #ff7d1b;
+  line-height: 3rem;
+}

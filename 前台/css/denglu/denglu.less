@@ -1,0 +1,97 @@
+
+.full(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+html,body,#wrap{
+    .full(100%,100%,none);
+   background: url(../../img2/tuceng/37d38345-062f-423c-80ca-c40251430c2fOri.png) no-repeat;
+   background-size: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+#wrap{
+    .box(vertical);
+    box-sizing: border-box;
+}
+header{
+    .full(100%,18rem,none);
+    margin-bottom: 4rem;
+    dl{
+        padding-top: 5.8rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #5e5e5e;
+        img{
+            .full(8.8rem,9rem,#f8f4f5);
+        }
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    p{   
+        .full(100%,4rem,none);
+         position: relative;
+        .box(horizontal);
+        box-sizing: border-box;
+        padding: 0 1rem;
+        position: relative;
+        span{
+            .full(8rem,2.6rem,none);
+            line-height: 2.6rem;
+            display: inline-block;
+            position: absolute;
+            right: 4rem;
+        }
+        img{
+           .full(3rem,3rem,none); 
+           margin-right: 1rem;
+           
+        }   
+        input{
+            display: block;
+            .full(100%,2.6rem,none);
+            -webkit-box-flex: 1;
+           border: none;
+           border-bottom: 1px solid red;
+           outline: none;
+        }
+        .tu{
+            .full(2.2rem,1.4rem,none);
+            position: absolute;
+            top: 0.5rem;
+            right: 1em;
+        }
+    }
+   .btn{
+       .full(100%,3.4rem,none);
+       box-sizing: border-box;
+        padding: 0 1.4rem;
+       span{
+           display: block;
+           .full(100%,100%,#ff7d1b);
+           text-align: center;
+           line-height: 3.4rem;
+           border-radius: 0.5rem;
+           font-weight: bold;
+           color: white;
+       }
+      
+   }
+   .left{
+       float: left;
+       margin: 1.2rem 0 0 1.4rem;
+       
+   }
+   .right{
+       float: right;
+       margin: 1.2rem 1.4rem 0 0;
+   }
+}

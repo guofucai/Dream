@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/xiezhu2/style.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	</head>
+
+	<body>
+		<div class="big">
+			<div id="shadow">
+
+			</div>
+			<div id="shadow2">
+				<div>
+				<h1>确定返回?</h1>
+				<p>您填写的信息尚未保存，确定返回吗？</p>
+				</div>
+				<ul>
+					<li>取消</li>
+					<li>确定</li>
+				</ul>
+			</div>
+			<div id="shadow3">
+				<span class="left">取消</span>
+				<span class="right">完成</span>
+			</div>
+			<header>
+				<div><img src="img/xiaoxi/d_03.png"></div>
+				<h1>收货人信息</h1>
+			</header>
+			<section>
+				<div class="section_div">
+					<ul>
+						<li>
+							<span>收货人:</span></span><input type="text" placeholder="沙发咖啡">
+						</li>
+						<li>
+							<span>手机号:</span><input type="text" placeholder="189-1231-2312">
+						</li>
+						<li>
+							<span>所在地区:</span><input type="text" placeholder="北京，海淀">
+							<a><img src="img/xiezhu/155132_03.png"></a>
+						</li>
+						<li>
+							<span>具体地址:</span><input type="text" placeholder="XX路XX楼">
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</body>
+    <script>
+    	$("#shadow").hide();
+    	$("#shadow2").hide();
+    	$("header div").click(function(){
+    		$("#shadow").show();
+    		$("#shadow2").show();
+    	})
+    	$("#shadow2 li").click(function(){
+    		$("#shadow").hide();
+    		$("#shadow2").hide();
+    	})
+    	$(".section_div img").click(function(){
+    		$("#shadow").show();
+    		$("#shadow3").show();
+    	})
+    	$("#shadow3 span").click(function(){
+    		$("#shadow").hide();
+    		$("#shadow3").hide();
+    	})
+    </script>
+</html>

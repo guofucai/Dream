@@ -1,0 +1,224 @@
+@import url("style.css");
+html,
+body,
+.big {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+#shadow {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: none;
+}
+#shadow2 {
+  width: 24rem;
+  height: 11.5rem;
+  background: #ffffff;
+  z-index: 110;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+}
+#shadow2 h2 {
+  line-height: 7.5rem;
+  text-align: center;
+  font-size: 17px;
+}
+#shadow2 div {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#shadow2 p {
+  -webkit-box-flex: 1;
+  border: 1px solid #e1e1e3;
+  display: block;
+  width: 100%;
+  height: 4rem;
+  background: none;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 17px;
+  color: #1583fe;
+}
+.big {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.big header {
+  width: 100%;
+  height: 4.5rem;
+  background: #f7f7f7;
+  text-align: center;
+  line-height: 4.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #bfbfbf;
+  padding: 0 1.1rem;
+  box-sizing: border-box;
+}
+.big header img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
+.big header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 7rem;
+  box-sizing: border-box;
+}
+.big header .center span {
+  width: 100%;
+  height: auto;
+  background: none;
+  -webkit-box-flex: 1;
+  display: block;
+}
+.big header .right {
+  font-size: 17px;
+}
+.big section {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.big section h2 {
+  font-size: 16px;
+  line-height: 3rem;
+  position: relative;
+}
+.big section h2 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+  position: absolute;
+  right: 0;
+  top: 0.8rem;
+}
+.big section .section_div img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.big section .section_div1 {
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.big section .section_div1 img {
+  width: 10rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div1 .span1 {
+  display: inline-block;
+  border-radius: 10px;
+  width: 6.1rem;
+  height: 2.1rem;
+  background: #ff7f1c;
+  text-align: center;
+  line-height: 2rem;
+  margin-right: 1rem;
+}
+.big section .section_div1 .p1 {
+  line-height: 3.6rem;
+}
+.big section .section_div2 {
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.big section .section_div2 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-bottom: 0.6rem;
+}
+.big section .section_div2 dl dt {
+  width: 2.4rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div2 dl dt img {
+  width: 2.4rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div2 dl dd {
+  -webkit-box-flex: 1;
+  margin-left: 1.8rem;
+}
+.big section .section_div2 dl dd .p1 {
+  color: #9f9f9f;
+}
+.big section .section_div3 {
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.big section .section_div3 h2 {
+  line-height: 3.5rem;
+}
+.big section .section_div3 div {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+}
+.big section .section_div3 div img {
+  width: 7.8rem;
+  height: auto;
+  background: none;
+}
+.big section .section_div3 div p {
+  color: #f67e1d;
+}
+.big section .section_div3 div dl {
+  margin-right: 1.5rem;
+}
+.big section .section_div3 div dl dd {
+  line-height: 1.8rem;
+  font-size: 15px;
+}
+.big footer {
+  width: 100%;
+  height: 5rem;
+  background: none;
+}
+.big footer div {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  height: 4.9rem;
+  border-top: 1px solid #bebebe;
+}
+.big footer div dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  font-size: 16px;
+  -webkit-box-flex: 1;
+  line-height: 5rem;
+  border: 1px solid #bebebe;
+  border-bottom: none;
+  padding: 0 4rem;
+  box-sizing: border-box;
+}
+.big footer div dl img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+  margin-right: 1.2rem;
+}
